@@ -1,6 +1,5 @@
 import React from "react";
-import prodacte from "./prodacte";
-export default function dashbord(){
+export default function Dashbord(){
     return ( <>
         <section id="dashbord">
                 <div style={{display:"flex",alignItems:"center",textAlign:"center"}}>
@@ -17,8 +16,8 @@ export default function dashbord(){
             <div style={{background:"#1E1E47",color:"white",width:"190px",height:"85vh",lineHeight:"40px"}}>
                 <ul style={{paddingTop:"30px",marginLeft:"30px",listStyle:"none"}}>
                     <li><i className="fa-solid fa-house" style={{marginRight:"10px"}}></i><a href="dashbord" style={{textDecoration:"none",color:"white"}}>Dashbord</a></li>
-                    <li><i className="fa-solid fa-cart-shopping" style={{marginRight:"10px"}}></i><a href="prodacte" style={{textDecoration:"none",color:"white"}}>Prodact</a></li>
-                    <li><i className="fa-solid fa-bag-shopping" style={{marginRight:"10px"}}></i><a href="" style={{textDecoration:"none",color:"white"}}>Commend</a></li>
+                    <li><i className="fa-solid fa-bag-shopping" style={{marginRight:"10px"}}></i><a href="prodacte" style={{textDecoration:"none",color:"white"}}>prodacte</a></li>
+                    <li><i className="fa-solid fa-cart-shopping" style={{marginRight:"10px"}}></i><a href="commend" style={{textDecoration:"none",color:"white"}}>Commend</a></li>
                     <li><i className="fa-solid fa-gear" style={{marginRight:"10px"}}></i><a href="" style={{textDecoration:"none",color:"white"}}>Settings</a></li>
                     <li><i className="fa-solid fa-file" style={{marginRight:"10px"}}></i><a href="" style={{textDecoration:"none",color:"white"}}>logs</a></li>
                 </ul>
