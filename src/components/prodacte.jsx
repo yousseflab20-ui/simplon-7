@@ -11,7 +11,7 @@ export default function prodacte(){
             <div style={{display:"flex",padding:"0 50px",alignItems:"center"}}>
                 <h2 style={{marginRight:"9px"}}>Prodacte</h2>
                 <span style={{marginLeft:"250px"}}><i className="fa-solid fa-magnifying-glass" style={{position: "absolute",top:"36px",left: "620px",color: "#888"}}></i><input type="search" placeholder="Search" style={{ paddingLeft: "70px", width: "100%", height: "30px",borderRadius:"40px",background:"#f6f6f6",border:"1px solid #000000",outline:"none"}}/></span>
-                <img src="https://static.vecteezy.com/ti/photos-gratuite/t1/5346410-gros-plan-portrait-de-souriant-beau-jeune-homme-caucasien-visage-regardant-camera-sur-fond-studio-gris-clair-isole-photo.jpg" style={{width:"35px",height:"35px",marginLeft:"220px",borderRadius:"70px"}}></img><h4 style={{marginLeft:"20px"}}>Youssef Labnine</h4>
+                <button style={{marginLeft:"190px",width: "200px", height: "31px",borderRadius:"20px",border:"none",cursor:"pointer",background:"#13C527",color:"white"}}>+ add your prodacte</button>
             </div>
             </div>
             <div style={{display:"flex"}}>
