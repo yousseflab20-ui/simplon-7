@@ -5,35 +5,35 @@ export const products = [
     name: "Huile d'olive extra vierge bio 750ml",
     price: 35,
     category: "Produits transformés",
-    description: <i className="fa-solid fa-trash"></i>
+    description: ""
   },
   {
     id: 2,
     name: "Huile d'olive extra vierge bio 750ml",
     price: 35,
     category: "Produits transformés",
-    description: <i className="fa-solid fa-trash"></i>
+    description: ""
   },
   {
     id: 3,
     name: "Huile d'olive extra vierge bio 750ml",
     price: 35,
     category: "Produits transformés",
-    description: <i className="fa-solid fa-trash"></i>
+    description: ""
   },
   {
     id: 4,
     name: "Huile d'olive extra vierge bio 750ml",
     price: 35,
     category: "Produits transformés",
-    description: <i className="fa-solid fa-trash"></i>
+    description: ""
   },
   {
     id: 5,
     name: "Huile d'olive extra vierge bio 750ml",
     price: 35,
     category: "Produits transformés",
-    description: <i className="fa-solid fa-trash"></i>
+    description: ""
   }
 ];
 
