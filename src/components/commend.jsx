@@ -17,13 +17,14 @@ export default function Commend(){
             <div style={{background:"#1E1E47",color:"white",width:"190px",height:"85vh",lineHeight:"40px"}}>
                 <ul style={{paddingTop:"30px",marginLeft:"30px",listStyle:"none"}}>
                     <li><i className="fa-solid fa-house" style={{marginRight:"10px"}}></i><a href="dashbord" style={{textDecoration:"none",color:"white"}}>Dashbord</a></li>
-                    <li><i className="fa-solid fa-bag-shopping" style={{marginRight:"10px"}}></i><a href="prodacte" style={{textDecoration:"none",color:"white"}}>prodacte</a></li>
+                    <li><i className="fa-solid fa-bag-shopping" style={{marginRight:"10px"}}></i><a href="prodacte" style={{textDecoration:"none",color:"white"}}>Prodacte</a></li>
+                    <li><i className="fa-solid fa-gear" style={{marginRight:"10px"}}></i><a href="status" style={{textDecoration:"none",color:"white"}}>Status</a></li>
                     <li><i className="fa-solid fa-cart-shopping" style={{marginRight:"10px"}}></i><a href="commend" style={{textDecoration:"none",color:"white"}}>Commend</a></li>
-                    <li><i className="fa-solid fa-gear" style={{marginRight:"10px"}}></i><a href="" style={{textDecoration:"none",color:"white"}}>Settings</a></li>
                     <li><i className="fa-solid fa-file" style={{marginRight:"10px"}}></i><a href="" style={{textDecoration:"none",color:"white"}}>logs</a></li>
                 </ul>
             </div>
             <div style={{background:"#f6f6f6",paddingBottom:"20px",width:"85%",display:"grid",gridTemplateColumns:"repeat(2,400px)",gap:"40px",alignItems:"center"}}>
+                <form action="StatusCommend">
                 <div style={{display: "grid",gridTemplateColumns: "repeat(2, 1fr)",gap: "70px",background: "white",padding: "70px",borderRadius: "20px",width: "700px",margin: "17px 90px",boxShadow: "0 0 10px rgba(0,0,0,0.1)"}}>
                     <div style={{ display: "flex", flexDirection: "column" }}>
                         <label style={{ marginBottom: "8px", fontWeight: "bold" }}>Enter your name</label>
@@ -39,8 +40,8 @@ export default function Commend(){
                         <option value="prodacte2">Prodacte 4</option>
                     </select>
                     </div>
-                    <div style={{ display: "flex", flexDirection: "column"}}>
-                        <label style={{ marginBottom: "8px", fontWeight: "bold" }}>Enter email</label>
+                        <div style={{ display: "flex", flexDirection: "column"}}>
+                            <label style={{ marginBottom: "8px", fontWeight: "bold" }}>Enter email</label>
                         <input type="email" placeholder="Enter your email"style={{padding: "10px",borderRadius: "10px",border: "1px solid #ccc",outline: "none"}}/>
                     </div>
                         <div style={{ display: "flex", flexDirection: "column" }}>
@@ -48,7 +49,10 @@ export default function Commend(){
                         <input type="text" placeholder="Enter your phone"style={{padding: "10px",borderRadius: "10px",border: "1px solid #ccc",outline: "none"}}/>
                     </div>
                     <button style={{textAlign:"center",padding:"13px",background:"#13C527",color:"white",fontSize:"15px",fontWeight:"bold",border:"none",borderRadius:"30px",cursor:"pointer"}}> <i className="fa-solid fa-cart-shopping" style={{marginRight:"30px",fontSize:"20px"}}></i>Send commend</button>
+                    
                 </div>
+                </form>
+
             </div>
             </div>
         </section>

@@ -17,8 +17,8 @@ export default function Dashbord(){
                 <ul style={{paddingTop:"30px",marginLeft:"30px",listStyle:"none"}}>
                     <li><i className="fa-solid fa-house" style={{marginRight:"10px"}}></i><a href="dashbord" style={{textDecoration:"none",color:"white"}}>Dashbord</a></li>
                     <li><i className="fa-solid fa-bag-shopping" style={{marginRight:"10px"}}></i><a href="prodacte" style={{textDecoration:"none",color:"white"}}>prodacte</a></li>
+                    <li><i className="fa-solid fa-gear" style={{marginRight:"10px"}}></i><a href="status" style={{textDecoration:"none",color:"white"}}>Status</a></li>
                     <li><i className="fa-solid fa-cart-shopping" style={{marginRight:"10px"}}></i><a href="commend" style={{textDecoration:"none",color:"white"}}>Commend</a></li>
-                    <li><i className="fa-solid fa-gear" style={{marginRight:"10px"}}></i><a href="" style={{textDecoration:"none",color:"white"}}>Settings</a></li>
                     <li><i className="fa-solid fa-file" style={{marginRight:"10px"}}></i><a href="" style={{textDecoration:"none",color:"white"}}>logs</a></li>
                 </ul>
             </div>
