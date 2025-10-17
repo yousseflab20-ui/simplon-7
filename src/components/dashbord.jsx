@@ -5,6 +5,7 @@ export default function Dashbord(){
                 <div style={{display:"flex",alignItems:"center",textAlign:"center"}}>
                 <div style={{background:"#3A365E",color:"white",padding:"28px",width:"134px"}}>
                 <h2>ADMIN</h2>
+                
             </div>
             <div style={{display:"flex",padding:"0 50px",alignItems:"center"}}>
                 <h2>Dashbord</h2>

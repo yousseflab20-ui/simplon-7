@@ -6,8 +6,10 @@ import Commend from './components/commend';
 import Prodacte from './components/prodacte';
 import Status from './components/status'
 import Layout from "./layout/layout";
+
 function App() {
   return (
+    <>
     <Router>
   <Routes>
     <Route path="/" element={<Layout />}>
@@ -19,6 +21,7 @@ function App() {
     </Route>
   </Routes>
 </Router>
+</>
   );
 }
 export default App;

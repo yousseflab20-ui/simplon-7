@@ -20,7 +20,6 @@ export default function Prodacte() {
       )
     );
   };
-
   function ProductCard({ product }) {
     const selected = selectedProducts.find((item) => item.id === product.id);
     const isChecked = !!selected;
